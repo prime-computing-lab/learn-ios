@@ -29,9 +29,22 @@
 		3CE966452D6ABA2200DA0A73 /* TideTimesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TideTimesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3CE966782D6AC9C200DA0A73 /* Exceptions for "TideTimes" folder in "TideTimes" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3CE9662A2D6ABA2000DA0A73 /* TideTimes */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		3CE9662D2D6ABA2000DA0A73 /* TideTimes */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3CE966782D6AC9C200DA0A73 /* Exceptions for "TideTimes" folder in "TideTimes" target */,
+			);
 			path = TideTimes;
 			sourceTree = "<group>";
 		};
